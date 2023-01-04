@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<title>replit Database Manipulator</title>
-		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="index.css">
 	</head>
 	<body>
 		<form method="POST" action="cors.php" target="result">
@@ -19,14 +19,14 @@
 					<option value="list">List</option>
 				</select>
 				<label class="col-1" for="db_value">DB Value:</label>
-				<textarea class="col-2" id="db_value" name="db_value" placeholder="DB Value (or prefix in case of List)"></textarea><br />
-				<input class="span-cols" type="submit" value="Execute" />
+				<textarea class="col-2" id="db_value" name="db_value" placeholder="DB Value (or prefix in case of List)"></textarea><br>
+				<input class="span-cols" type="submit" value="Execute">
+			</div>
+			<br>
+			<div class="grid">
+				<label class="col-1" for="result">Response:</label><br>
+				<iframe class="span-cols" name="result" id="result">IFrames aren't supported in this browser</iframe>
 			</div>
 		</form>
-		<br />
-		<div class="grid">
-			<label class="col-1" for="result">Response:</label><br />
-			<iframe class="span-cols" name="result" id="result">IFrames aren't supported in this browser</iframe>
-		</div>
 	</body>
 </html>
