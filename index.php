@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>replit Database Manipulator</title>
 		<link rel="stylesheet" href="index.css" />
