@@ -22,11 +22,11 @@
 				<textarea class="col-2" id="db_value" name="db_value" placeholder="DB Value (or prefix in case of List)"></textarea><br>
 				<input class="span-cols" type="submit" value="Execute">
 			</div>
-			<br>
-			<div class="grid">
-				<label class="col-1" for="result">Response:</label><br>
-				<iframe class="span-cols" name="result" id="result">IFrames aren't supported in this browser</iframe>
-			</div>
 		</form>
+		<br>
+		<div class="grid">
+			<label class="col-1">Response:</label><br>
+			<iframe class="span-cols" name="result" id="result">IFrames aren't supported in this browser</iframe>
+		</div>
 	</body>
 </html>
