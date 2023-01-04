@@ -12,7 +12,7 @@
 				<label class="col-1" for="db_key">DB Key:</label>
 				<input class="col-2" type="text" id="db_key" name="db_key" placeholder="DB Key">
 				<label class="col-1" for="method">Method:</label>
-				<select class="col-2" id="method" name="method" value="get">
+				<select class="col-2" id="method" name="method">
 					<option value="get" selected>Get</option>
 					<option value="set">Set</option>
 					<option value="delete">Delete</option>
