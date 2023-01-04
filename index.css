@@ -1,0 +1,25 @@
+body {
+	box-sizing: border-box;
+}
+label,
+input,
+select,
+textarea,
+iframe {
+	padding: 5px;
+}
+.grid {
+	display: grid;
+	max-width: 40rem;
+	grid-template-columns: 40% 50%;
+	gap: 10px;
+}
+.col-1 {
+	grid-column: 1;
+}
+.col-2 {
+	grid-column: 2;
+}
+.span-cols {
+	grid-column: 1 / 3;
+}
