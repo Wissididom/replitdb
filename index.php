@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>replit Database Manipulator</title>
-		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="index.css" />
 	</head>
 	<body>
 		<form method="POST" action="cors.php" target="result">
@@ -20,7 +20,7 @@
 				</select>
 				<label class="col-1" for="db_value">DB Value:</label>
 				<textarea class="col-2" id="db_value" name="db_value" placeholder="DB Value (or prefix in case of List)"></textarea><br />
-				<input class="span-cols" type="submit" value="Execute">
+				<input class="span-cols" type="submit" value="Execute" />
 			</div>
 		</form>
 		<br />
