@@ -26,7 +26,7 @@
 		<br>
 		<div class="grid">
 			<label class="col-1">Response:</label><br>
-			<iframe class="span-cols" name="result" id="result">IFrames aren't supported in this browser</iframe>
+			<iframe class="span-cols" name="result" id="result"></iframe>
 		</div>
 	</body>
 </html>
