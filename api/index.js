@@ -11,7 +11,7 @@ app.get(`/check`, (req, res, next) => {
   res.send("Server is running");
 });
 // Set
-app.post(`/`, async (req, res) => {
+app.post(`*`, async (req, res) => {
   if (req.body.replit_db_url && req.body.method && req.body.db_key) {
     if (
       req.body.replit_db_url.trim() != "" &&
